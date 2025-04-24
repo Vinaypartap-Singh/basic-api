@@ -38,6 +38,6 @@ export class UsersService {
             ...user
         })
 
-        return this.getSpecificUser(id)
+        return this.getSpecificUser(+id)
     }
 }
